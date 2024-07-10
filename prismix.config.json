@@ -1,0 +1,14 @@
+{
+    "mixers": [
+      {
+        "input": [
+          "prisma/base.prisma",
+          "src/destination/repositories/destination.prisma",
+          "src/trips/repositories/trips.prisma"
+
+        ],
+        "output": "prisma/schema.prisma"
+      }
+    ]
+  }
+  

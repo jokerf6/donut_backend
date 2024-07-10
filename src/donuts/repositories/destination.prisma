@@ -1,0 +1,13 @@
+datasource db {
+    provider = "mysql"
+    url      = env("DATABASE_URL")
+}
+
+model Destination {
+    id      String @id @default(uuid())
+    name    String
+    brief   String @db.Text
+    idImage String @db.Text
+
+    @@map("destinations")
+}

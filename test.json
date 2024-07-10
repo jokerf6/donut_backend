@@ -1,0 +1,15 @@
+{
+    "quesitions": [
+      {
+        "question": "Number of children?",
+        "language": "English"
+      },
+      {
+        "question": "كم عدد الاطفال",
+        "language": "Arabic"
+      }
+    ],
+    "type": "Numeric",
+    "idImage": null,
+    "answers": []
+  }
